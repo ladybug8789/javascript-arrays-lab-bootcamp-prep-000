@@ -11,3 +11,7 @@ function kittens() {
 function destructivelyAppendKitten(Ralph) {
   kittens.push(Ralph)
 }
+
+function destructivelyPrependKitten(Bob) {
+  window.kittens.unshift(Bob)
+}
