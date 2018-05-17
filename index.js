@@ -23,3 +23,8 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   window.kittens.shift()
 }
+
+function appendKitten(Broom) {
+  appendKitten = [...array, Broom]
+  return appendKitten
+}
