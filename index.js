@@ -32,10 +32,11 @@ function prependKitten(Arnold) {
   return prependKitten = [Arnold, ...window.kittens]
 }
 
+//
 function removeLastKitten() {
-  return removeLastKitten = window.kittens.pop()
+  return removeLastKitten = [window.kittens.slice(-1)]
 }
 
 function removeFirstKitten() {
-
+  return removeFirstKitten = [window.kittens.slice(1)]
 }
