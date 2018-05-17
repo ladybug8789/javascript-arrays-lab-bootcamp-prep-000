@@ -9,5 +9,5 @@ function kittens() {
 }
 
 function destructivelyAppendKitten() {
-  
+
 }
