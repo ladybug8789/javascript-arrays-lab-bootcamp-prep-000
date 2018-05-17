@@ -33,5 +33,9 @@ function prependKitten(Arnold) {
 }
 
 function removeLastKitten() {
+  return removeLastKitten = window.kittens.pop()
+}
 
+function removeFirstKitten() {
+  
 }
