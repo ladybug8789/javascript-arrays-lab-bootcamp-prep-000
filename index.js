@@ -27,11 +27,9 @@ function destructivelyRemoveFirstKitten() {
 
 //return to this one
 function appendKitten(Broom) {
-  appendKitten = [...window.kittens, Broom]
-  return window.kittens
+  return appendKitten = [...window.kittens, Broom]
 }
 
 function prependKitten(Arnold) {
-  prependKitten = [Arnold, ...window.kittens]
-  return window.kittens
+  return prependKitten = [Arnold, ...window.kittens]
 }
