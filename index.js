@@ -19,3 +19,7 @@ function destructivelyPrependKitten(Bob) {
 function destructivelyRemoveLastKitten() {
   window.kittens.pop()
 }
+
+function destructivelyRemoveFirstKitten() {
+  window.kittens.shift()
+}
