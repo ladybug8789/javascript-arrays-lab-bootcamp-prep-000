@@ -25,6 +25,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(Broom) {
-  appendKitten = [...array, Broom]
-  return appendKitten
+  appendKitten = [...window.kittens, Broom]
+  return window.kittens
 }
