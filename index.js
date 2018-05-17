@@ -15,3 +15,7 @@ function destructivelyAppendKitten(Ralph) {
 function destructivelyPrependKitten(Bob) {
   window.kittens.unshift(Bob)
 }
+
+function destructivelyRemoveLastKitten() {
+  window.kittens.pop()
+}
