@@ -8,6 +8,6 @@ function kittens() {
   var kittens = ['Milo', 'Otis', 'Garfield']
 }
 
-function destructivelyAppendKitten() {
-
+function destructivelyAppendKitten(Ralph) {
+  kittens.push(Ralph)
 }
